@@ -1,0 +1,14 @@
+name: OneOfAKind
+version: 1.0.0
+main: pl.jedyny.OneOfAKind
+api-version: '26.3'
+description: Tylko jeden mace i jeden przedmiot z netherytu każdego typu na serwerze.
+commands:
+  jedyny:
+    description: Lista zrobionych przedmiotów i reset limitu
+    usage: /jedyny list | /jedyny reset <ITEM|all>
+    permission: jedyny.admin
+permissions:
+  jedyny.admin:
+    description: Dostęp do /jedyny
+    default: op
